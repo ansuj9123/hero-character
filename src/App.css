@@ -1,7 +1,58 @@
+* {
+  /* background-color: #D1EEF5; */
+  background-image: url("../public/images/pexels-eberhard-grossgasteiger-691668.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(45deg, #f1dede 25%),
+    linear-gradient(45deg, #ebebeb 25%, white 25%, white 75%, #ebebeb 75%);
+  /* background-image: linear-gradient(45deg, #f1dede 25%, transparent 25%, transparent 75%, #E8E8E8 75%), linear-gradient(45deg, #E8E8E8 25%, white 25%, white 75%, #E8E8E8 75%); */
+  /* background-size: 100%; */
+}
 .App {
   text-align: center;
+  color: black;
+}
+.App h1 {
+  font-size: 30px;
+  font-style: italic;
+  color: rgb(239, 26, 26);
 }
 
+.container label {
+  font-size: 20px;
+  color: black;
+  background-image: none;
+}
+
+
+.container input {
+  padding: 10px;
+  background-size: auto;
+  
+}
+
+/*
+this section is hero info detail
+*/
+
+.heroInfo-container h2{
+  font-size: 24px;
+  margin-bottom: 10px;
+
+ 
+}
+
+.heroInfo-container ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.heroInfo-container li{
+  font-size: 20px;
+  color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
